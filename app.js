@@ -18,4 +18,13 @@ $(function() {
   $('#removeClassButton').click(function(){
     $('#classDiv').removeClass('newClass');
   });
+
+  //Exercise 4
+  $('#fadeInButton').click(function(){
+    $('#fadeDiv').fadeIn();
+  });
+
+  $('#fadeOutButton').click(function(){
+    $('#fadeDiv').fadeOut();
+  });
 });

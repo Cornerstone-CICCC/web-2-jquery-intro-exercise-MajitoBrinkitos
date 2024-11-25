@@ -27,4 +27,13 @@ $(function() {
   $('#fadeOutButton').click(function(){
     $('#fadeDiv').fadeOut();
   });
+
+  //Exercise 5
+  $('#slideUpButton').click(function(){
+    $('#slideDiv').slideUp();
+  });
+
+  $('#slideDownButton').click(function(){
+    $('#slideDiv').slideDown();
+  });
 });

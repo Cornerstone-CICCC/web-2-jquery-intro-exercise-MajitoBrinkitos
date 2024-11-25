@@ -10,5 +10,12 @@ $(function() {
     $('#colorDiv').css({'background-color': 'yellow'});
   });
 
-  
+  //Exercise 3
+  $('#addClassButton').click(function(){
+    $('#classDiv').addClass('newClass');
+  });
+
+  $('#removeClassButton').click(function(){
+    $('#classDiv').removeClass('newClass');
+  });
 });

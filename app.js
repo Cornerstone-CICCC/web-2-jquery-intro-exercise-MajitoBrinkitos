@@ -6,4 +6,9 @@ $(function() {
   });
 
   //Exercise 2
+  $('#colorButton').click(function(){
+    $('#colorDiv').css({'background-color': 'yellow'});
+  });
+
+  
 });
